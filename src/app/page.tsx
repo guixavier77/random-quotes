@@ -1,6 +1,6 @@
 'use client'
-import PopOver from '@/components/Modal'
-import { useToggle } from '@/components/ToggleModal'
+import Modal from '@/components/Modal'
+import { useToggle } from '@/hooks/useToggle.t'
 import React from 'react'
 
 const Page = () => {
@@ -27,7 +27,7 @@ const Page = () => {
       >
         Pop-over
       </button>
-      {modal ? <PopOver close={closeModal} /> : ''}
+      {modal ? <Modal close={closeModal} /> : ''}
     </div>
   )
 }

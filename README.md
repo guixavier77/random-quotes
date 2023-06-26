@@ -7,7 +7,7 @@
 
 ## 📑 Sobre
 
-O projeto consiste em utilizar uma API de frases, para imprimi-las na tela a cada iteração.
+O projeto consiste em utilizar uma API de frases, para imprimi-las na tela de forma aleatória.
 
 ## 🚀 Tecnologias utilizadas
 
